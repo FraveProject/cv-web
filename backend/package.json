@@ -13,11 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "type": "module",
-=======
-  "type": "commonjs",
->>>>>>> 41d08f67c1c752f0f928d7d785ec56f445314dd3
   "bugs": {
     "url": "https://github.com/FraveProject/cv-web/issues"
   },
@@ -26,6 +22,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.6.2"
+    "mongoose": "^9.6.2",
+    "vue": "^3.5.34"
   }
 }

@@ -141,3 +141,27 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Vue.js specific files
+*.local
+*.vue.js
+*.vue.d.ts
+.env.local
+.env.*.local
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.exe
+*.zip
+
+# Environment variables
+.env
+.env.production.local
