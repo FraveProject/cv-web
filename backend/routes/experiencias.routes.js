@@ -38,3 +38,17 @@ router.put("/:id", async (req, res) => {
     }
 });
 export default router;
+
+router.delete("/:id", async (req, res) => {
+    try {
+        const resultado = await ExperienciaLaboral.findByIdAndDelete(req.params.id);
+        
+        if (!resultado) {
+            return res.status(404).json({ mensaje: "No se encontró el registro" });
+        }
+        
+        res.status(200).json({ mensaje: "Eliminado exitosamente" });
+    } catch (error) {
+        res.status(500).json({ mensaje: "Error al eliminar", error: error.message });
+    }
+});

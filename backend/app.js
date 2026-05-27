@@ -28,7 +28,6 @@ mongoose.connect(MONGO_URI, {
     .catch((error) => {
         console.log('Error de conexión:', error);
     });
-// Aquí iran las rutas CRUD.
 
 
 // Rutas.
